@@ -1,0 +1,4 @@
+<h1>Все кандидаты</h1>
+{% for item in data %}
+<p><a href="/candidate/{{item.name}}">{{item.name}}</a></p>
+{% endfor %}
